@@ -11,8 +11,6 @@ Este paquete es una recopilación varios comandos de uso común entre los colega
     - Se incluye algunos comandos con espacios como \qDimp y \qImp
 ```
 
-Repositorio:  https://github.com/mate-andres/LaTeX_aleph-comandos
-
 ### Licencia
 
 Este paquete se encuentra bajo licencia LaTeX Project Public License 1.3c 
