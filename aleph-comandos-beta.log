@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=latex 2023.1.24)  24 JAN 2023 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=latex 2023.1.24)  24 JAN 2023 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,6 +52,9 @@ English documentation    <2022-09-03>
 ********************************************************
 
 )
+File ./aleph-comandos-beta.sty already exists on the system.
+Overwrite it? [y/n]
+\answer=y
 
 Generating file(s) ./aleph-comandos-beta.sty 
 \openout0 = `./aleph-comandos-beta.sty'.
@@ -70,9 +73,9 @@ Codelines passed: 148
 * To finish the installation you have to move the following *
 * file into a directory searched by TeX: *
 * *
-* aleph-comandos-alpha.sty *
+* aleph-comandos-beta.sty *
 * *
-* To produce the documentation run the file aleph-comandos-alpha.dtx *
+* To produce the documentation run the file aleph-comandos-beta.dtx *
 * through LaTeX. *
 * *
 * Happy TeXing! *
@@ -86,6 +89,6 @@ Here is how much of TeX's memory you used:
  20777 multiletter control sequences out of 15000+600000
  512287 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 13i,0n,15p,207b,97s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 13i,0n,15p,207b,98s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 No pages of output.
