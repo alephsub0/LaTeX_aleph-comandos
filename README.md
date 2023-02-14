@@ -1,6 +1,6 @@
 ## aleph-comandos 1.1
 
-Este paquete es una recopilación varios comandos de uso común entre los colegas de Andrés Merino, dentro de su proyecto personal Alephsub0 (https://www.alephsub0.org/).  Provee multiples comandos para facilitar la escritura de textos con contenidos matemáticos.
+Este paquete es una recopilación varios comandos de uso común entre los colegas de Andrés Merino, dentro de su proyecto personal Alephsub0 (https://www.alephsub0.org/). Provee multiples comandos para facilitar la escritura de textos con contenidos matemáticos.
 
 ### Últimos cambios
 
@@ -11,12 +11,25 @@ Este paquete es una recopilación varios comandos de uso común entre los colega
     - Se incluye algunos comandos con espacios como \qDimp y \qImp
 ```
 
+## aleph-comandos-beta 2.0
+
+La versión beta incluye nuevas funcionalidades que se encuentran en fase de pruebas antes de ser incluidas en la versión final. Si tienes alguna sugerencia para estas no dudes en escribirnos a daniel.lara@alephsub0.org
+
+### Últimos cambios
+
+```
+2.0  2023-02-13
+    - Se incluyen comandos específicos para la escritura en áreas como Topología y Teoría de Probabilidades.
+```
+
 ### Licencia
 
-Este paquete se encuentra bajo licencia LaTeX Project Public License 1.3c 
+Este paquete se encuentra bajo licencia LaTeX Project Public License 1.3c
 
-________
+---
+
 Andrés Merino,
+Daniel Lara,
 Proyecto Alephsub0 --- https://www.alephsub0.org/
 
-2020/08/14
+2023/02/13
