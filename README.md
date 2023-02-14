@@ -28,8 +28,8 @@ Este paquete se encuentra bajo licencia LaTeX Project Public License 1.3c
 
 ---
 
-Andrés Merino,
-Daniel Lara,
+Andrés Merino,  
+Daniel Lara,  
 Proyecto Alephsub0 --- https://www.alephsub0.org/
 
 2023/02/13
