@@ -18,8 +18,9 @@ La versión beta incluye nuevas funcionalidades que se encuentran en fase de pru
 ### Últimos cambios
 
 ```
-2.0  2023-02-13
+b2.0.1  2023-10-12
     - Se incluyen comandos específicos para la escritura en áreas como Topología y Teoría de Probabilidades.
+    - Se incluyen notaciones referentes a espacios funcionales y espacios generales (métricos y de medida)
 ```
 
 ### Licencia
