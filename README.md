@@ -18,9 +18,11 @@ La versión beta incluye nuevas funcionalidades que se encuentran en fase de pru
 ### Últimos cambios
 
 ```
-b2.0.1a  2023-12-18
+b2.0.1  2023-12-10
     - Se incluyen comandos específicos para la escritura en áreas como Topología y Teoría de Probabilidades.
     - Se incluyen notaciones referentes a espacios funcionales y espacios generales (métricos y de medida)
+b2.0.1a  2023-12-18
+    - Se incluye un comando para la distancia entre dos conjuntos o entre un punto y un conjunto.
 ```
 
 ### Licencia
