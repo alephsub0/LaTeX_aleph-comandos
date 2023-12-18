@@ -18,7 +18,7 @@
 %% Daniel Lara <daniel.lara@alephsub0.org>
 %% 
 \NeedsTeXFormat{LaTeX2e}[2009/09/24]
-\ProvidesPackage{aleph-comandos-beta}[2023/02/13 b2.0]
+\ProvidesPackage{aleph-comandos-beta}[2023/12/10 b2.0.1]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% --- Paquetes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -323,6 +323,8 @@
 \newcommand{\eborel}[1][X]{(#1,\mathcal{B}\mbox{or}(X))}
 %% Espacio Boreliano
 \newcommand{\boreliano}[1]{\mathcal{B}\mbox{or}(#1)}
+%% Distancia entre dos conjuntos o entre un punto y un conjunto
+\newcommand{\distancia}[2]{\mbox{dist}\left(#1,#2\right)}
 %%  Y ¡se acabó!
 \endinput
 %%

@@ -18,7 +18,7 @@ La versión beta incluye nuevas funcionalidades que se encuentran en fase de pru
 ### Últimos cambios
 
 ```
-b2.0.1  2023-10-12
+b2.0.1a  2023-12-18
     - Se incluyen comandos específicos para la escritura en áreas como Topología y Teoría de Probabilidades.
     - Se incluyen notaciones referentes a espacios funcionales y espacios generales (métricos y de medida)
 ```
@@ -33,4 +33,4 @@ Andrés Merino,
 Daniel Lara,  
 Proyecto Alephsub0 --- https://www.alephsub0.org/
 
-2023/02/13
+2023-12-18
