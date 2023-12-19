@@ -29,6 +29,7 @@
 \RequirePackage{calc}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{xcolor}
+\RequirePackage{mathrsfs}
 %    \end{macrocode}
 %  \subsection{Comandos de función}
 % \iffalse
@@ -528,6 +529,15 @@
 %    \begin{macrocode}
 \newcommand{\Dinf}[1][\Omega]{D^\infty(#1)}
 %    \end{macrocode}
+% \iffalse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% --- Abreviaciones para espacios de Lebesgue
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \fi
+%% Espacio de funciones Lp
+%    \begin{macrocode}
+\newcommand{\Lp}[2][\Omega]{L^{#2}(#1)}
+%    \end{macrocode}
 %% Espacio de las funciones localmente integrables con p=1
 %    \begin{macrocode}
 \newcommand{\Lloc}[1][\Omega]{L^1_{\text{loc}}(#1)}
@@ -563,7 +573,7 @@
 %    \end{macrocode}
 %% Espacio Boreliano
 %    \begin{macrocode}
-\newcommand{\boreliano}[1]{\mathcal{B}\mbox{or}(#1)}
+\newcommand{\boreliano}[1][X]{\mathcal{B}\mbox{or}(#1)}
 %    \end{macrocode}
 %% Distancia entre dos conjuntos o entre un punto y un conjunto
 %    \begin{macrocode}

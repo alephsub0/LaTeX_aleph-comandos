@@ -24,6 +24,7 @@ b2.0.1  2023-12-10
 b2.0.1a  2023-12-18
     - Se incluye un comando para la distancia entre dos conjuntos o entre un punto y un conjunto.
     - Se incluye comandos para los espacios de funciones localmente integrables
+    - Corrección de errores en el uso de lo nuevos paquetes
 ```
 
 ### Licencia

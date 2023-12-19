@@ -27,6 +27,7 @@
 \RequirePackage{calc}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{xcolor}
+\RequirePackage{mathrsfs}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% --- Comandos de función
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -308,6 +309,11 @@
 #1)}
 %% Espacio de las funciones test
 \newcommand{\Dinf}[1][\Omega]{D^\infty(#1)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% --- Abreviaciones para espacios de Lebesgue
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Espacio de funciones Lp
+\newcommand{\Lp}[2][\Omega]{L^{#2}(#1)}
 %% Espacio de las funciones localmente integrables con p=1
 \newcommand{\Lloc}[1][\Omega]{L^1_{\text{loc}}(#1)}
 %% Espacio de las funciones localmente integrables con p
@@ -326,7 +332,7 @@
 %% Espacio de Borel
 \newcommand{\eborel}[1][X]{(#1,\mathcal{B}\mbox{or}(X))}
 %% Espacio Boreliano
-\newcommand{\boreliano}[1]{\mathcal{B}\mbox{or}(#1)}
+\newcommand{\boreliano}[1][X]{\mathcal{B}\mbox{or}(#1)}
 %% Distancia entre dos conjuntos o entre un punto y un conjunto
 \newcommand{\distancia}[2]{\mbox{dist}\left(#1,#2\right)}
 %%  Y ¡se acabó!
