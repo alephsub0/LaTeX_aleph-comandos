@@ -9,6 +9,7 @@
 
 \usepackage{mathpazo}
 \usepackage{longtable}
+\usepackage[hidelinks]{hyperref}
 \usepackage{aleph-comandos-beta}
 
 \setlength{\parskip}{0.2\baselineskip}
@@ -21,7 +22,7 @@
 
 \title{\file{aleph-comandos-beta.sty}}
 \author{Proyecto Alephsub0\\ Andr\'es Merino\footnote{Escuela de Ciencias Físicas y Matemáticas, Pontificia Universidad Católica del Ecuador} \\ Daniel Lara\footnote{Facultad de Ciencias, Escuela Politénica Nacional}}
-\date{2023-12-10\\ Versión beta-2.0.1}
+\date{2023-12-18\\ Versión beta-2.0.1b}
 
 \begin{document}
  
@@ -37,7 +38,9 @@
 
 El paquete \file{aleph-comandos-beta.sty} es parte del conjunto de clases y paquetes creados por Andrés Merino dentro de su proyecto personal Alephsub0. Este paquete está basado en el paquete \file{comandosEPN.sty} del mismo autor y se cambió su nombre para continuar con el mantenimiento del mismo dentro del proyecto Alephsub0.
     
-El paquete provee de una variedad de comandos generados por Juan Carlos Trujillo, Jonathan Ortiz y Andrés Merino, que facilitan la escritura matemática. Además, en la versión actual se incorporan herramientas para la escritura de textos en áreas relacionados a áreas como Topología, Teoría de la Medida y Análisis Funcional
+El paquete provee de una variedad de comandos generados por Juan Carlos Trujillo, Jonathan Ortiz y Andrés Merino, que facilitan la escritura matemática. 
+
+A partir de la versión beta-2.x se incorporan herramientas para la escritura de textos en áreas relacionados a áreas como Topología, Teoría de la Medida y Análisis Funcional. Estas herramientas se irán incorporando en futuras versiones de manera continua durante el 2023 y 2024. Para sugerencias en este aspecto puedes contactarte a la siguiente dirección: \href{mailto:daniel.lara01@epn.edu.ec}{\texttt{daniel.lara01@epn.edu.ec}}
 
 \section{Uso}
 
@@ -468,12 +471,6 @@ A continuación se detallan los comandos usados para vectores canónicos
     \end{tabular}
 \end{center}
 
-
-\subsection{Problemas}
-
-Cualquier problema, por favor reportarlo a\\
-mat.andresmerino@gmail.com.
-
 \section{Comandos específicos}
 
 En esta sección se encuentran detallados los comandos para áreas específicas
@@ -519,6 +516,66 @@ A continuación se detallas los comandos usados para los distintos tipos de conv
     \hline
     \end{tabular}
 \end{center}
+
+\subsection{Comandos para Análisis Funcional}
+
+A continuación se detallan los comandos usados para los distintos espacios utilizados en Análisis Funcional. El argumento es opcional y se utiliza para indicar el conjunto sobre el cual se está trabajando. Por defecto el espacio es $\Omega$.
+
+\begin{center}
+    \begin{tabular}{ccc}
+    \hline
+    Comando & Resultado \\
+    \hline
+    |\Ck| & $\Ck$ \\
+    |\Cko| & $\Cko$ \\
+    |\Ckc| & $\Ckc$ \\
+    |\Cinf| & $\Cinf$ \\
+    |\Ccinf| & $\Ccinf$ \\
+    |\Dinf| & $\Dinf$ \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Comandos para Teoría de la Medida}
+
+\subsubsection{Espacios de medida}
+
+A continuación se detallan los comandos usados para los distintos espacios de medida. Para el caso de los espacios con la sigma álgebra de Borel estos poseen la opción para indicar el conjunto sobre el que están definidos, por defecto este es $X$
+
+\begin{center}
+    \begin{tabular}{ccc}
+    \hline
+    Comando & Resultado \\
+    \hline
+    |\emedible| & $\emedible$ \\
+    |\emedibleB| & $\emedibleB$ \\
+    |\eborel| & $\eborel$ \\
+    |\boreliano| & $\boreliano$ \\
+    |\eborel| & $\eborel$ \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\subsubsection{Espacios de Lebesgue}
+
+A continuación se detallan los comandos usados para los distintos espacios de Lebesgue. El primer argumento es opcional y se utiliza para indicar el conjunto sobre el cual se está trabajando mientras que el segundo argumento es obligatorio y se utiliza para indicar el exponente de la norma. No obstante, en el caso del espacio $\Lloc$ solo se solicita, de manera opcional, el conjunto sobre el cual se está trabajando.
+
+\begin{center}
+    \begin{tabular}{ccc}
+    \hline
+    Comando & Resultado \\
+    \hline
+    |\Lp{p}| & $\Lp{p}$ \\
+    |\Lploc{p}| & $\Lploc{p}$ \\
+    |\Lloc| & $\Lloc$ \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Problemas}
+
+Cualquier problema, por favor reportarlo a\\
+mat.andresmerino@gmail.com
 
 \newpage
 \DocInput{aleph-comandos-beta.dtx}
