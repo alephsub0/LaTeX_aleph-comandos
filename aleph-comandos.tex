@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage[margin=2.5cm,left=3.5cm]{geometry}
+\usepackage{changelog}
 
 \usepackage{mathpazo}
 \usepackage{longtable}
@@ -21,7 +22,7 @@
 
 \title{\file{aleph-comandos.sty}}
 \author{Proyecto Alephsub0\\ Andr\'es Merino}
-\date{2020-08-14\\ Versión 1.1}
+\date{2021-08-14\\ Versión 1.1.1}
 
 \begin{document}
  
@@ -355,7 +356,7 @@ A continuación se detallan las abreviaciones de operadores lógicos que sirven 
 
 \subsection{Delimitadores}
 
-Para delimitadores, se ulitizan las siguientes abreviaciones
+Para delimitadores, se utilizan las siguientes abreviaciones
 \begin{center}
     \begin{tabular}{cc}
     \hline
@@ -472,6 +473,31 @@ A continuación se detallan los comandos usados para vectores canónicos
 
 Cualquier problema, por favor reportarlo a\\
 mat.andresmerino@gmail.com.
+
+\begin{changelog}[author=Andés Merino,
+    sectioncmd=\section]
+    % version 1.1.1
+    \shortversion{v=1.1.,
+    date=2021-06-07,
+    changes= Se elimina el uso del paquete \texttt{etex}}
+    % version 1.1
+    \begin{version}[v=1.1,
+    date=2020-08-17]
+    \fixed
+    \item Se incluye un condicional para definir el comando \verb|\C| que tenía problemas con Beamer y XeLaTeX + hyperref
+    \added
+    \item Comandos con espacios como \verb|\qDimp| y \verb|\qImp|
+    \end{version}
+    % version 1.0
+    \shortversion{v=1.0,
+    date=2019-12-17,
+    changes=Primera versión del paquete \texttt{aleph-comandos}}
+    % version 0.1
+    \shortversion{v=0.1,
+    date=2018-02-27,
+    changes=Primera versión parquete \texttt{comandos-EPN}}
+\end{changelog}
+
 
 \newpage
 \DocInput{aleph-comandos.dtx}

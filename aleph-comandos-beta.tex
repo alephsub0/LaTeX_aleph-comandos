@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage[margin=2.5cm,left=3.5cm]{geometry}
+\usepackage{changelog}
 
 \usepackage{mathpazo}
 \usepackage{longtable}
@@ -22,7 +23,7 @@
 
 \title{\file{aleph-comandos-beta.sty}}
 \author{Proyecto Alephsub0\\ Andr\'es Merino\footnote{Escuela de Ciencias Físicas y Matemáticas, Pontificia Universidad Católica del Ecuador} \\ Daniel Lara\footnote{Facultad de Ciencias, Escuela Politénica Nacional}}
-\date{2023-12-18\\ Versión beta-2.0.1b}
+\date{2023-12-22\\ Versión beta-2.0.3}
 
 \begin{document}
  
@@ -359,7 +360,7 @@ A continuación se detallan las abreviaciones de operadores lógicos que sirven 
 
 \subsection{Delimitadores}
 
-Para delimitadores, se ulitizan las siguientes abreviaciones
+Para delimitadores, se utilizan las siguientes abreviaciones
 \begin{center}
     \begin{tabular}{cc}
     \hline
@@ -475,6 +476,18 @@ A continuación se detallan los comandos usados para vectores canónicos
 
 En esta sección se encuentran detallados los comandos para áreas específicas
 
+\subsection{Comandos genéricos}
+
+\DescribeMacro{\distancia}
+    El comando \cs{distancia} funciona como una abreviación para la notación de la distancia entre dos conjuntos o un punto y un conjunto. Tiene dos argumentos en el formato\\
+        \hspace*{3em}\cs{distancia}\marg{conjunto 1}\marg{conjunto 2},\\
+    con esto, el comando genera
+    \begin{center}
+        |\distancia{A}{B}| 
+        \hspace{2cm}
+        \fbox{$\distancia{A}{B}$}
+    \end{center}
+
 \subsection{Comandos para Topología}
 
 A continuación se encuentran comandos útiles para la escritura en Topología
@@ -499,9 +512,9 @@ A continuación se encuentran comandos útiles para la escritura en Topología
         \fbox{$\cociente{X}$}
     \end{center}
 
-\subsection{Comantos para Teoría de Probabilidadess}
+\subsection{Comandos para Teoría de Probabilidades}
 
-A continuación se detallas los comandos usados para los distintos tipos de convergencia en Teoría de Probabilidadess
+A continuación se detallas los comandos usados para los distintos tipos de convergencia en Teoría de Probabilidades
 
 \begin{center}
     \begin{tabular}{ccc}
@@ -576,6 +589,57 @@ A continuación se detallan los comandos usados para los distintos espacios de L
 
 Cualquier problema, por favor reportarlo a\\
 mat.andresmerino@gmail.com
+
+\begin{changelog}[author=Andés Merino,
+    sectioncmd=\section]
+    % version beta-2.0.3
+    \begin{version}[author=Daniel Lara,v=beta-2.0.3,
+        date=2023-12-18]
+        \added
+        \item Abreviación para espacios de funciones localmente integrables
+        \changed
+        \item Actualización de la documentación y formato de versionamiento
+    \end{version}
+     % version beta-2.0.2
+     \begin{version}[author=Daniel Lara,v=beta-2.0.2,
+        date=2023-12-18]
+        \added
+        \item Abreviaciones para distancias entre conjuntos o punto-conjunto
+    \end{version}
+    % version beta-2.0.1
+    \begin{version}[author=Daniel Lara,v=beta-2.0.1,
+        date=2023-12-10]
+        \added
+        \item Abreviaciones para espacios funcionales
+        \item Abreviaciones para espacios métricos y de medida
+    \end{version}
+    % version b2.0
+    \begin{version}[author=Daniel Lara,v=beta-2.0,
+        date=2023-02-14]
+        \added
+        \item Abreviaciones para espacios topológicos y convergencia en Teoría de Probabilidades
+    \end{version}
+    % version 1.1.1
+    \shortversion{v=1.1.,
+    date=2021-06-07,
+    changes= Se elimina el uso del paquete \texttt{etex}}
+    % version 1.1
+    \begin{version}[v=1.1,
+    date=2020-08-17]
+    \fixed
+    \item Se incluye un condicional para definir el comando \verb|\C| que tenía problemas con Beamer y XeLaTeX + hyperref
+    \added
+    \item Comandos con espacios como \verb|\qDimp| y \verb|\qImp|
+    \end{version}
+    % version 1.0
+    \shortversion{v=1.0,
+    date=2019-12-17,
+    changes=Primera versión del paquete \texttt{aleph-comandos}}
+    % version 0.1
+    \shortversion{v=0.1,
+    date=2018-02-27,
+    changes=Primera versión parquete \texttt{comandos-EPN}}
+\end{changelog}
 
 \newpage
 \DocInput{aleph-comandos-beta.dtx}
