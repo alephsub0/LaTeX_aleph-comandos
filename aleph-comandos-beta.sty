@@ -18,7 +18,7 @@
 %% Daniel Lara <daniel.lara@alephsub0.org>
 %% 
 \NeedsTeXFormat{LaTeX2e}[2009/09/24]
-\ProvidesPackage{aleph-comandos-beta}[2023/12/19 b2.0.3]
+\ProvidesPackage{aleph-comandos-beta}[2024/01/14 b2.0.4]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% --- Paquetes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -296,6 +296,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% --- Abreviaciones para espacios funcionales
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Espacio de funciones continuas
+\newcommand{\Ccero}[1][\Omega]{C^0\left(#1\right)}
+\newcommand{\Cont}[1][\Omega]{C\left(#1\right)}
+%% Espacio de funciones continuas a soporte compacto
+\newcommand{\Cceroc}[1][\Omega]{C^0_c\left(#1\right)}
+%% Espacios duales
+\newcommand{\Ddual}[1][\Omega]{D'\left(#1\right)}
+
 %% Espacio de funciones Ck
 \newcommand{\Ck}[1][\Omega]{C^k(#1)}
 %% Espacio de funciones Ck a soporte compacto
@@ -304,11 +312,18 @@
 %% Espacio de funciones C infinito
 \newcommand{\Cinf}[1][\Omega]{C^\infty(
 #1)}
+\newcommand{\E}{\mathcal{E}\left(\Omega\right)}
 %% Espacio de funciones C infinito a soporte compacto
 \newcommand{\Ccinf}[1][\Omega]{C^\infty_c(
 #1)}
 %% Espacio de las funciones test
 \newcommand{\Dinf}[1][\Omega]{D^\infty(#1)}
+\newcommand{\D}[1][\Omega]{D\left(#1\right)}
+\newcommand{\Dk}[1][\Omega]{D_K\left(\Omega\right)}
+%% Soporte de una función
+\newcommand{\supp}[1]{\mbox{supp}\left(#1\right)}
+%% Abreviación para Convergencia
+\newcommand{\nti}{n\to+\infty}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% --- Abreviaciones para espacios de Lebesgue
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -25,6 +25,8 @@ b2.0.1a  2023-12-18
     - Se incluye un comando para la distancia entre dos conjuntos o entre un punto y un conjunto.
     - Se incluye comandos para los espacios de funciones localmente integrables
     - Corrección de errores en el uso de lo nuevos paquetes
+b2.0.4  2024-01-14
+    - Se agregan más comandos para espacios funcionales (Pendientes de documentar)
 ```
 
 ### Licencia
@@ -37,4 +39,4 @@ Andrés Merino,
 Daniel Lara,  
 Proyecto Alephsub0 --- https://www.alephsub0.org/
 
-2023-12-18
+2024-01-14
