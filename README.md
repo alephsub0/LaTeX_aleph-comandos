@@ -10,7 +10,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Clase: aleph-comandos 1.0</h3>
+<h3 align="center">Paquete: aleph-comandos 1.0</h3>
   <p align="center">
     Paquete que incluye los comandos necesarios para simplificar la escritura matemática.
     <br />
@@ -25,7 +25,7 @@
 
 ## Sobre el Proyecto
 
-Es una clase creada para dar formato a exámenes y hojas de ejercicios. Esta clase fue generada dentro del proyecto Alephsub0 (https://www.alephsub0.org/).
+Es un paquete que incluye los comandos necesarios para simplificar la escritura matemática. Este paquete fue generado dentro del proyecto Alephsub0 (https://www.alephsub0.org/).
 
 ### Construido con
 
