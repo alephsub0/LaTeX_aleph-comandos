@@ -1,8 +1,41 @@
-## aleph-comandos 1.1
+<!-- Encabezado -->
 
-Este paquete es una recopilación varios comandos de uso común entre los colegas de Andrés Merino, dentro de su proyecto personal Alephsub0 (https://www.alephsub0.org/). Provee multiples comandos para facilitar la escritura de textos con contenidos matemáticos.
+[![Colaboradores][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Estrellas][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-### Últimos cambios
+<!-- Título -->
+<br />
+<div align="center">
+
+<h3 align="center">Clase: aleph-comandos 1.0</h3>
+  <p align="center">
+    Paquete que incluye los comandos necesarios para simplificar la escritura matemática.
+    <br />
+    <a href="https://github.com/alephsub0/LaTeX_aleph-comandos/issues">Reportar un Problema</a>
+    ·
+    <a href="https://github.com/alephsub0/LaTeX_aleph-comandos/issues">Solicitar cambio</a>
+    <br />
+  </p>
+</div>
+
+<!-- Cuerpo -->
+
+## Sobre el Proyecto
+
+Es una clase creada para dar formato a exámenes y hojas de ejercicios. Esta clase fue generada dentro del proyecto Alephsub0 (https://www.alephsub0.org/).
+
+### Construido con
+
+[![LaTeX][LaTeX]][LaTeX-url]
+
+### Pruebas
+
+Este proyecto se ha probado con Tex Live 2023 sin problemas.
+
+## Últimos cambios
 
 ```
 1.1  2020-08-17
@@ -11,9 +44,9 @@ Este paquete es una recopilación varios comandos de uso común entre los colega
     - Se incluye algunos comandos con espacios como \qDimp y \qImp
 ```
 
-## aleph-comandos-beta 2.0
+## Versión Beta: aleph-comandos-beta 2.0
 
-La versión beta incluye nuevas funcionalidades que se encuentran en fase de pruebas antes de ser incluidas en la versión final. Si tienes alguna sugerencia para estas no dudes en escribirnos a daniel.lara@alephsub0.org
+La versión beta incluye nuevas funcionalidades que se encuentran en fase de pruebas antes de ser incluidas en la versión final. Si tienes alguna sugerencia para estas no dudes en escribirnos a dmlaran@alephsub0.org
 
 ### Últimos cambios
 
@@ -29,14 +62,47 @@ b2.0.4  2024-01-14
     - Se agregan más comandos para espacios funcionales (Pendientes de documentar)
 ```
 
-### Licencia
+## Licencia
 
-Este paquete se encuentra bajo licencia LaTeX Project Public License 1.3c
+Distribuido bajo la licencia MIT.
 
----
+[![MIT License][license-shield]][license-url]
 
-Andrés Merino,  
-Daniel Lara,  
-Proyecto Alephsub0 --- https://www.alephsub0.org/
+## Créditos
 
-2024-01-14
+**Andrés Merino** (aemerinot@gmail.com)
+
+- Docente-Investigador en Pontificia Universidad Católica del Ecuador
+- Fundador del [Proyecto Alephsub0](https://www.alephsub0.org/about/)
+
+  [![LinkedIn][linkedin-shield]][linkedin-url-aemt]
+  [![GitHub][github-shield]][github-url-aemt]
+
+**Daniel Lara**
+
+- Estudiante de Matemática en Escuela Politécnica Nacional
+- Colaborador del [Proyecto Alephsub0](https://www.alephsub0.org/about/)
+
+  [![LinkedIn][linkedin-shield]][linkedin-url-dl]
+  [![GitHub][github-shield]][github-url-dl]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/alephsub0/LaTeX_aleph-comandos.svg?style=for-the-badge
+[contributors-url]: https://github.com/alephsub0/LaTeX_aleph-comandos/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alephsub0/LaTeX_aleph-comandos.svg?style=for-the-badge
+[forks-url]: https://github.com/alephsub0/LaTeX_aleph-comandos/forks
+[stars-shield]: https://img.shields.io/github/stars/alephsub0/LaTeX_aleph-comandos?style=for-the-badge
+[stars-url]: https://github.com/alephsub0/LaTeX_aleph-comandos/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alephsub0/LaTeX_aleph-comandos.svg?style=for-the-badge
+[issues-url]: https://github.com/alephsub0/LaTeX_aleph-comandos/issues
+[license-shield]: https://img.shields.io/github/license/alephsub0/LaTeX_aleph-comandos.svg?style=for-the-badge
+[license-url]: https://es.wikipedia.org/wiki/Licencia_MIT
+[linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url-aemt]: https://www.linkedin.com/in/andrés-merino-010a9b12b/
+[linkedin-url-dl]: https://www.linkedin.com/in/mat-daniel-lara/
+[github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url-aemt]: https://github.com/andres-merino
+[github-url-dl]: https://github.com/daniel-lara-ec
+[LaTeX]: https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=fff&style=for-the-badge
+[LaTeX-url]: https://www.latex-project.org/
